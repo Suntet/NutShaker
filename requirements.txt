@@ -1,0 +1,4 @@
+# ModbusScan Pro — Dependencies
+# Install: pip install -r requirements.txt
+
+pyserial>=3.5

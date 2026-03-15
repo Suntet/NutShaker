@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Log dan output dari NutShaker
+# (jangan commit file hasil scan — bisa besar dan berisi data sensitif)
+nutshaker_*.log
+nutshaker_*.csv
+nutshaker_*.json
+nutshaker_*_report.txt
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Coverage dan testing
+.coverage
+htmlcov/
+.pytest_cache/
