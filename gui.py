@@ -60,7 +60,7 @@ class ModbusScanGUI:
         self._setup_window()
         self._build_ui()
         self._refresh_ports()
-        self._process_queue()   # mulai polling loop
+        self._process_queue()   
 
     # ── Konfigurasi Jendela ───────────────────────────────────────────────────
 
